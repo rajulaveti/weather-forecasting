@@ -33,16 +33,6 @@ let weather = {
       document.querySelector(".weather").classList.remove("loading");
       document.body.style.backgroundImage =
         "url('https://source.unsplash.com/1600x900/?" + name + "')";
-        <script type="text/javascript">
-	atOptions = {
-		'key' : 'c36ba13c46af8b8b463ea5d281e581a9',
-		'format' : 'iframe',
-		'height' : 60,
-		'width' : 468,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://grainsslaughter.com/c36ba13c46af8b8b463ea5d281e581a9/invoke.js"></scr' + 'ipt>');
-</script>
     },
     search: function () {
       this.fetchWeather(document.querySelector(".search-bar").value);
@@ -62,3 +52,13 @@ let weather = {
     });
   
   weather.fetchWeather("Ranasthalam");
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'c36ba13c46af8b8b463ea5d281e581a9',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://grainsslaughter.com/c36ba13c46af8b8b463ea5d281e581a9/invoke.js"></scr' + 'ipt>');
+</script>

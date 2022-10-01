@@ -52,13 +52,3 @@ let weather = {
     });
   
   weather.fetchWeather("Ranasthalam");
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'c36ba13c46af8b8b463ea5d281e581a9',
-		'format' : 'iframe',
-		'height' : 60,
-		'width' : 468,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://grainsslaughter.com/c36ba13c46af8b8b463ea5d281e581a9/invoke.js"></scr' + 'ipt>');
-</script>
